@@ -1,0 +1,62 @@
+nav{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr); 
+}
+nav{
+}
+section{
+}
+.main-section{
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
+  background-color: #D1AF56;
+}
+
+.profile{
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  background-color: #A74659;
+}
+
+.experience{
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+  background-color: #3F5F9D;
+}
+
+.education{
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  background-color: #437576;
+}
+
+.blog{
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+  background-color: #97AECF;
+}
+
+.social-menu{
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  background-color: #A74659;
+}
+
+.contact{
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  background-color: #3F5F9D;
+}
+
+.portfolio{
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+  background-color: #D1AF56;
+}
+
+.main-photo{
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 3;
+  background-color: yellow;
+}
