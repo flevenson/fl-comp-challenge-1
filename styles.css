@@ -288,3 +288,78 @@ h1{
   background-size: cover;
 }
 }
+
+@media screen and (max-width: 500px){
+    main{
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+  height: 200vh;
+  width: 100vw; 
+}
+h1{
+  font-size:1rem;
+}
+.button-name{
+  font-size: 13px;
+  width: 40%;
+}
+.bio{
+  font-size:.8rem;
+}
+.icon{
+  max-height: 40px;
+}
+.main-section{
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
+  background-color: #D1AF56;
+  width: 100vw;
+}
+.profile{
+  grid-column: 1 / span 1;
+  grid-row: 7 / span 1;
+  width: 100vw;
+}
+
+.experience{
+  grid-column: 1 / span 1;
+  grid-row: 8 / span 1;
+  width: 100vw;
+}
+.education{
+  grid-column: 1 / span 1;
+  grid-row: 9 / span 1;
+  width: 100vw;
+}
+
+.blog{
+  grid-column: 1 / span 1;
+  grid-row: 10 / span 1;
+  width: 100vw;
+}
+
+.social-menu{
+  grid-column: 1 / span 1;
+  grid-row: 11 / span 1;
+  width: 100vw;
+}
+
+.contact{
+  grid-column: 1 / span 1;
+  grid-row: 12 / span 1;
+  width: 100vw;
+}
+
+.portfolio{
+  grid-column: 1 / span 1;
+  grid-row: 13 / span 1;
+  width: 100vw;
+
+}
+
+.main-photo{
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 5;
+  background-size: cover;
+}
+}
