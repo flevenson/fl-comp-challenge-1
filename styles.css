@@ -17,6 +17,15 @@ section{
   text-align: center
   
 }
+.previous-button, .next-button, .three-dots{
+  height: 5%;
+}
+.three-dots{
+  align-self: flex-start;
+  position: relative;
+  left: 45%;
+  }
+
 h6, h1, p, button{
   font-family: 'Poppins', sans-serif;
 }
@@ -129,6 +138,11 @@ h6{
   background-color: yellow;
   background: url(images/thundercat.png) no-repeat;
   background-size: cover;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
 }
 /*img{
   object-fit: contain;
