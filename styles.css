@@ -1,62 +1,93 @@
-nav{
+body{
+  margin: 0;
+}
+main{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr); 
-}
-nav{
+  height: 100vh;
+  margin: none;
 }
 section{
+  display: flex;
+}
+.profile-icon{
+  fill: white;
 }
 .main-section{
   grid-column: 1 / span 2;
   grid-row: 1 / span 1;
   background-color: #D1AF56;
+  height: calc(1/3);
+  width: 40vw;
 }
 
 .profile{
   grid-column: 3 / span 1;
   grid-row: 1 / span 1;
   background-color: #A74659;
+  height: calc(1/3);
+  width: 20vw;
 }
 
 .experience{
   grid-column: 1 / span 1;
   grid-row: 2 / span 1;
   background-color: #3F5F9D;
+  height: calc(1/3);
+  width: 20vw;
+
 }
 
 .education{
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
   background-color: #437576;
+  height: calc(1/3);
+  width: 20vw;
 }
 
 .blog{
   grid-column: 3 / span 1;
   grid-row: 2 / span 1;
   background-color: #97AECF;
+  height: calc(1/3);
+  width: 20vw;
 }
 
 .social-menu{
   grid-column: 1 / span 1;
   grid-row: 3 / span 1;
   background-color: #A74659;
+  height: calc(1/3);
+  width: 20vw;
 }
 
 .contact{
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
   background-color: #3F5F9D;
+  height: calc(1/3);
+  width: 20vw;
 }
 
 .portfolio{
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
   background-color: #D1AF56;
+  height: calc(1/3);
+  width: 20vw;
 }
 
 .main-photo{
   grid-column: 4 / span 2;
   grid-row: 1 / span 3;
   background-color: yellow;
+  background: url(images/thundercat.png) no-repeat;
+  background-size: cover;
+}
+img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
