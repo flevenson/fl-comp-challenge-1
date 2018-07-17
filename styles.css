@@ -299,9 +299,11 @@ h1{
 h1{
   font-size:1rem;
 }
+button{
+  width: 40%;
+}
 .button-name{
   font-size: 13px;
-  width: 40%;
 }
 .bio{
   font-size:.8rem;
